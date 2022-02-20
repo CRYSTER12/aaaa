@@ -79,7 +79,7 @@ def get_system(driver):
     DengLu = get_log(driver)
     DengLu.click()
     print('正在尝试登录账号...')
-    time.sleep(2)
+    time.sleep(7)
     xpath_gegnduo='/html/body/div[1]/div/div/div/div[2]/div/div[1]/div[3]/div[2]/div[1]/div[2]/div'
     driver.find_element_by_xpath(xpath_gegnduo).click()
     print('正在进入应用界面')
